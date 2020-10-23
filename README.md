@@ -43,7 +43,7 @@ Imports for pdftopng.cp38-win_amd64.pyd:
 List PE file dependencies in JSON format:
 
 ```
-$ pedep --json file.dll
+$ pedep --json pdftopng.cp38-win_amd64.pyd
 {
     "pdftopng.cp38-win_amd64.pyd": [
         "MSVCP140.dll",
@@ -72,7 +72,7 @@ $ pedep --json file.dll
 List PE file dependencies recursively by providing a DLL directory for dependency lookups:
 
 ```
-$ pedep --dll-dir C:\path\to\dll\directory file.dll
+$ pedep --dll-dir C:\path\to\dll\directory pdftopng.cp38-win_amd64.pyd
 Imports for pdftopng.cp38-win_amd64.pyd:
   - MSVCP140.dll
   - python38.dll
@@ -162,7 +162,7 @@ Imports for jpeg62.dll:
 
 ## Versioning
 
-`pedep` uses [Calendar Versioning](https://calver.org/). For the available versions, see the tags on the GitHub repository.
+`pedep` uses [Semantic Versioning](https://semver.org/). For the available versions, see the tags on the GitHub repository.
 
 ## License
 
