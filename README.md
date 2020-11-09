@@ -2,7 +2,8 @@
 
 [![image](https://img.shields.io/pypi/v/pedep.svg)](https://pypi.org/project/pedep/) [![image](https://img.shields.io/pypi/pyversions/pedep.svg)](https://pypi.org/project/pedep/) [![image](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/ambv/black)
 
-List PE file dependencies.
+List PE (Portable Executable) Python file dependencies.
+Works for both `.pyd` and `.dll` files.
 
 ## Installation
 
